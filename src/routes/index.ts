@@ -1,8 +1,8 @@
-import articleRoute from './article.routes'
-import {Router, RouterOptions} from 'express'
+import articleRoute from './article.routes';
+import {Router, RouterOptions} from 'express';
 
-const router: RouterOptions = Router()
+const router: RouterOptions = Router();
 
-router.use('/article', articleRoute)
+router.use('/article', articleRoute);
 
-export default router
+export default router;
